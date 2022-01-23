@@ -1,0 +1,141 @@
+ºbody { 
+    display: flex;
+    flex-direction: column ;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #dbdbdb;
+    
+}
+
+nav {
+    border-radius: 20px;
+    margin: 0px;
+    background-color: white;
+    color: #800000;
+    border: solid rgb(199, 199, 199) 4px;;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.menu h1 {
+    margin-left: 30px;
+}
+
+#logo {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    height: 150px;
+}
+
+
+#titulo {
+    margin-top: 80px;
+    font-size: 80px;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+.secciones {
+    color: black;
+    text-decoration: none;
+    background: rgb(219, 219, 219);
+    padding: 4px 20px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+}
+
+.secciones:hover {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+#barrabusqueda, #botonbuscar {
+    min-height: 27px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    color: rgb(53, 53, 53);
+    border-radius: 20px;
+    border: solid rgb(199, 199, 199) 4px;
+}
+
+#copyright {
+    margin-left: 10px;
+    margin-top: 22px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#iconos {
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    height: 35px;
+    padding-top: 7%;
+    padding-right: 20px;
+    
+}
+
+
+.primero {
+    text-indent: 50px;
+}
+
+
+.cuerpo_principal {
+    display:flex;
+    align-content: flex-start;
+    
+}
+
+.parrafo{
+    display:flex;
+    align-content: flex-start;
+	flex-direction: column;
+	justify-content: space-between;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    text-align: justify;
+    padding: 60px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right:20px ;
+    border: solid rgb(199, 199, 199) 4px;
+}
+
+
+.columna {
+    color: rgb(0, 0, 0);
+    background-color: white;
+    text-align: left    ;
+    padding: 30px;
+    border-radius: 20px;
+    width: auto;
+    margin-top: 20px;
+    border: solid rgb(199, 199, 199) 4px;
+}
+
+
+.foto_personal {
+    height: auto;
+    margin-left: auto;
+}
+
+.parrafo img{
+	height:200px;
+    margin-left: ;
+}
+
+.parrafo p {
+    text-indent: 3%;
+    text-align: justify;
+}
